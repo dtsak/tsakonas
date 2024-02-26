@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -596,6 +605,8 @@ main form label {
 
 main form input[type="text"], main form input[type="email"], main form input[type="tel"], main form textarea {
   background-color: #776885;
+  color: white;
+  resize: none;
   padding: 5px;
   border-radius: 5px;
   font-family: inherit;

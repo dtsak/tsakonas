@@ -585,7 +585,7 @@ main div.mainphoto img {
 }
 
 main form {
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-auto-rows: min-content;
   row-gap: 10px;
@@ -606,7 +606,6 @@ main form label {
 main form input[type="text"], main form input[type="email"], main form input[type="tel"], main form textarea {
   background-color: #776885;
   color: white;
-  overflow: none;
   padding: 5px;
   border-radius: 5px;
   font-family: inherit;

@@ -292,9 +292,11 @@ header p, header h2 {
   }
   header .company {
     justify-self: left;
+    font-size: 2.4em;
   }
   header nav {
     align-self: end;
+    font-size: 1.2em;
   }
 }
 

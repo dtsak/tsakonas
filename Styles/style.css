@@ -606,7 +606,7 @@ main form label {
 main form input[type="text"], main form input[type="email"], main form input[type="tel"], main form textarea {
   background-color: #776885;
   color: white;
-  padding: 5px;
+  padding: 3px;
   border-radius: 5px;
   font-family: inherit;
 }
